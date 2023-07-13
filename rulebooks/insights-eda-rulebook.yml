@@ -11,6 +11,8 @@
         event.payload.application == "malware-detection"
         and event.payload.event_type == "detected-malware"
       action:
-        run_playbook:
-          name: snow_malware_playbook.yaml
+        run_job_template:
+          name: InsightsMalwareIncident
+	  organization: Default
+
 
