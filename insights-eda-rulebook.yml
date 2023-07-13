@@ -13,6 +13,3 @@
       action:
 	debug:
 	  msg: "event.payload: {{ event.payload }}"
-
-
-
