@@ -13,7 +13,6 @@
       action:
 	debug:
 	  msg: "event.payload: {{ event.payload }}"
-#        run_playbook:
-#          name: simple.yml
+
 
 
